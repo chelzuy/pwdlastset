@@ -13,20 +13,20 @@ cwd = os.getcwd()
 
 def domain_name(name):
     """Function that filters for each Domain"""
-    domain_list = ["g09","g08","g07","g06","g05","g04","g03","g02","g01","r01"]
+    domain_list = ["a09","b08","c07","d06","e05","f04","g03","h02","i01","j01"]
 
     #Dictionary containing the domain name
     domains = {
-        "g09" : "g09.fujitsu.local",
-        "g08" : "g08.fujitsu.local",
-        "g07" : "g07.fujitsu.local",
-        "g06" : "g06.fujitsu.local",
-        "g05" : "g05.fujitsu.local",
-        "g04" : "g04.fujitsu.local",
-        "g03" : "g03.fujitsu.local",
-        "g02" : "g02.fujitsu.local",
-        "g01" : "g01.fujitsu.local",
-        "r01" : "r01.fujitsu.local"
+        "a09" : "a-email.local",
+        "b08" : "b-email.local",
+        "c07" : "c-email.local",
+        "d06" : "d-email.local",
+        "e05" : "e-email.local",
+        "f04" : "f-email.local",
+        "g03" : "g-email.local",
+        "h02" : "h-email.local",
+        "i01" : "i-email.local",
+        "j01" : "j-email.local"
     }
 
     try:
@@ -44,7 +44,7 @@ def domain_name(name):
 
 def create_csv(n_rows,name):
     """Function that will create new csv for each Domain"""
-    domain_list = ["g09","g08","g07","g06","g05","g04","g03","g02","g01","r01"]
+    domain_list = ["a09","b08","c07","d06","e05","f04","g03","h02","i01","j01"]
 
     #New Filename
     a = filename.split("_")

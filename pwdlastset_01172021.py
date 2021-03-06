@@ -32,7 +32,7 @@ cwd = os.getcwd()
 #     csv_data = df.to_csv(csv_filename,index=False,header=True)
 
 def domainlist(name):
-    DOMAIN_LIST = ["g09","g08","g07","g06","g05","g04","g03","g02","g01","r01"]
+    DOMAIN_LIST = ["a09","b08","c07","d06","e05","f04","g03","h02","i01","j01"]
     new_domain_list = []
     new_domain_list.append(DOMAIN_LIST)
     del new_domain_list[0][name]
@@ -43,16 +43,16 @@ def domainlist(name):
 def domainname(df):
     """Function to filter out rows not included in the domain."""
     domains = {
-        "g09" : "g09.fujitsu.local",
-        "g08" : "g08.fujitsu.local",
-        "g07" : "g07.fujitsu.local",
-        "g06" : "g06.fujitsu.local",
-        "g05" : "g05.fujitsu.local",
-        "g04" : "g04.fujitsu.local",
-        "g03" : "g03.fujitsu.local",
-        "g02" : "g02.fujitsu.local",
-        "g01" : "g01.fujitsu.local",
-        "r01" : "r01.fujitsu.local"
+        "a09" : "a-email.local",
+        "b08" : "b-email.local",
+        "c07" : "c-email.local",
+        "d06" : "d-email.local",
+        "e05" : "e-email.local",
+        "f04" : "f-email.local",
+        "g03" : "g-email.local",
+        "h02" : "h-email.local",
+        "i01" : "i-email.local",
+        "j01" : "j-email.local"
     }
 
  
